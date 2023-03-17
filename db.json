@@ -1,21 +1,21 @@
 {
 	"center": [{
-			"center_id": 1,
+			"id": 1,
 			"center_name": "A"
 		},
 		{
-			"center_id": 2,
+			"id": 2,
 			"center_name": "B"
 		},
 		{
-			"center_id": 3,
+			"id": 3,
 			"center_name": "C"
 		}
 	],
 
 	"vlan_segment": [{
 			"center_id": 1,
-			"vlan_id": 1,
+			"id": 1,
 			"vlan_name": "CorporateLAN1",
 			"ip_segment": "172.20.0.0/16",
 			"segment_usage": "IP phone/広域イーサ",
@@ -23,7 +23,7 @@
 		},
 		{
 			"center_id": 1,
-			"vlan_id": 2,
+			"id": 2,
 			"vlan_name": "CorporateLAN2",
 			"ip_segment": "172.21.0.0/16",
 			"segment_usage": "IP phone/広域イーサ21",
@@ -31,7 +31,7 @@
 		},
 		{
 			"center_id": 2,
-			"vlan_id": 3,
+			"id": 3,
 			"vlan_name": "CorporateLAN3",
 			"ip_segment": "172.22.0.0/16",
 			"segment_usage": "IP phone/広域イーサ22",
@@ -42,7 +42,7 @@
 	"ip_mgr": [{
 			"center_id": 1,
 			"vlan_id": 1,
-			"ip_mgr_id": 1,
+			"id": 1,
 			"ip_address": "172.20.0.1",
 			"host_name": "AAA-bbb-ccc-001",
 			"ip_usage": "ああああああああ",
@@ -51,7 +51,7 @@
 		{
 			"center_id": 1,
 			"vlan_id": 1,
-			"ip_mgr_id": 2,
+			"id": 2,
 			"ip_address": "172.20.0.2",
 			"host_name": "AAA-bbb-ccc-002",
 			"ip_usage": "ああああああああ",
@@ -60,7 +60,7 @@
 		{
 			"center_id": 1,
 			"vlan_id": 1,
-			"ip_mgr_id": 3,
+			"id": 3,
 			"ip_address": "172.20.0.3",
 			"host_name": "AAA-bbb-ccc-003",
 			"ip_usage": "ああああああああ",
@@ -69,7 +69,7 @@
 		{
 			"center_id": 1,
 			"vlan_id": 1,
-			"ip_mgr_id": 4,
+			"id": 4,
 			"ip_address": "172.20.0.4",
 			"host_name": "AAA-bbb-ccc-004",
 			"ip_usage": "ああああああああ",
