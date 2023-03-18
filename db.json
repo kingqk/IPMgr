@@ -34,7 +34,7 @@
 		{
 			"id": 3,
 			"center_id": 2,
-			"center_name": "O大阪"
+			"center_name": "O大阪",
 			"vlan_name": "CorporateLAN3",
 			"ip_segment": "172.22.0.0/16",
 			"segment_usage": "IP phone/広域イーサ22",
