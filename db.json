@@ -1,90 +1,91 @@
 {
-	"center": [{
-			"id": 1,
-			"center_name": "T東京"
-		},
-		{
-			"id": 2,
-			"center_name": "O大阪"
-		},
-		{
-			"id": 3,
-			"center_name": "N名古屋"
-		}
-	],
-
-	"vlan_segment": [{
-			"id": 1,
-			"center_id": 1,
-			"center_name": "T東京",
-			"vlan_name": "CorporateLAN1",
-			"ip_segment": "172.20.0.0/16",
-			"segment_usage": "IP phone/広域イーサ",
-			"segment_remark": "100Mbps"
-		},
-		{
-			"id": 2,
-			"center_id": 1,
-			"center_name": "T東京",
-			"vlan_name": "CorporateLAN2",
-			"ip_segment": "172.21.0.0/16",
-			"segment_usage": "IP phone/広域イーサ21",
-			"segment_remark": "110Mbps"
-		},
-		{
-			"id": 3,
-			"center_id": 2,
-			"center_name": "O大阪",
-			"vlan_name": "CorporateLAN3",
-			"ip_segment": "172.22.0.0/16",
-			"segment_usage": "IP phone/広域イーサ22",
-			"segment_remark": "120Mbps"
-		}
-	],
-
-	"ip_mgr": [{
-			"id": 1,
-			"center_id": 1,
-			"center_name": "T東京",
-			"vlan_id": 1,
-			"vlan_name": "CorporateLAN1",
-			"ip_address": "172.20.0.1",
-			"host_name": "AAA-bbb-ccc-001",
-			"ip_usage": "ああああああああ",
-			"ip_remark": "ええええええええ"
-		},
-		{
-			"id": 2,
-			"center_id": 1,
-			"center_name": "T東京",
-			"vlan_id": 1,
-			"vlan_name": "CorporateLAN1",
-			"ip_address": "172.20.0.2",
-			"host_name": "AAA-bbb-ccc-002",
-			"ip_usage": "ああああああああ",
-			"ip_remark": "ええええええええ"
-		},
-		{
-			"id": 3,
-			"center_id": 1,
-			"center_name": "T東京",
-			"vlan_id": 1,
-			"vlan_name": "CorporateLAN1",
-			"ip_address": "172.20.0.3",
-			"host_name": "AAA-bbb-ccc-003",
-			"ip_usage": "ああああああああ",
-			"ip_remark": "ええええええええ"
-		},
-		{
-			"id": 4,
-			"center_id": 1,
-			"center_name": "T東京",
-			"vlan_id": 1,
-			"vlan_name": "CorporateLAN1",
-			"ip_address": "172.20.0.4",
-			"host_name": "AAA-bbb-ccc-004",
-			"ip_usage": "ああああああああ",
-			"ip_remark": "ええええええええ"
-		}
-	]
+  "center": [
+    {
+      "id": 1,
+      "center_name": "T東京"
+    },
+    {
+      "id": 2,
+      "center_name": "O大阪"
+    },
+    {
+      "id": 3,
+      "center_name": "N名古屋"
+    }
+  ],
+  "vlan_segment": [
+    {
+      "id": 1,
+      "center_id": 1,
+      "center_name": "T東京",
+      "vlan_name": "CorporateLAN1",
+      "ip_segment": "172.20.0.0/16",
+      "segment_usage": "IP phone/広域イーサ",
+      "segment_remark": "100Mbps"
+    },
+    {
+      "id": 2,
+      "center_id": 1,
+      "center_name": "T東京",
+      "vlan_name": "CorporateLAN2",
+      "ip_segment": "172.21.0.0/16",
+      "segment_usage": "IP phone/広域イーサ21",
+      "segment_remark": "110Mbps"
+    },
+    {
+      "id": 3,
+      "center_id": 2,
+      "center_name": "O大阪",
+      "vlan_name": "CorporateLAN3",
+      "ip_segment": "172.22.0.0/16",
+      "segment_usage": "IP phone/広域イーサ22",
+      "segment_remark": "120Mbps"
+    }
+  ],
+  "ip_mgr": [
+    {
+      "id": 1,
+      "center_id": 1,
+      "center_name": "T東京",
+      "vlan_id": 1,
+      "vlan_name": "CorporateLAN1",
+      "ip_address": "172.20.0.1",
+      "host_name": "AAA-bbb-ccc-001",
+      "ip_usage": "ああああああああ",
+      "ip_remark": "ええええええええ"
+    },
+    {
+      "id": 2,
+      "center_id": 1,
+      "center_name": "T東京",
+      "vlan_id": 1,
+      "vlan_name": "CorporateLAN1",
+      "ip_address": "172.20.0.2",
+      "host_name": "AAA-bbb-ccc-002",
+      "ip_usage": "ああああああああ",
+      "ip_remark": "ええええええええ"
+    },
+    {
+      "id": 3,
+      "center_id": 1,
+      "center_name": "T東京",
+      "vlan_id": 1,
+      "vlan_name": "CorporateLAN1",
+      "ip_address": "172.20.0.3",
+      "host_name": "AAA-bbb-ccc-003",
+      "ip_usage": "ああああああああ",
+      "ip_remark": "ええええええええ"
+    },
+    {
+      "id": 4,
+      "center_id": 1,
+      "center_name": "T東京",
+      "vlan_id": 1,
+      "vlan_name": "CorporateLAN1",
+      "ip_address": "172.20.0.4",
+      "host_name": "AAA-bbb-ccc-004",
+      "ip_usage": "ああああああああ",
+      "ip_remark": "ええええええええ"
+    }
+  ]
 }
